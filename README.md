@@ -14,7 +14,7 @@ The goal of this project is to turn a static design into accessible, modern code
 
 It’s mobile responsive and includes a print dialog and print media query.
 
-_This project is part of a free, open-source series focused on helping newer developers practice HTML/CSS with real-world examples._
+_This project is part of a free, open-source series focused on helping newer developers practice HTML, CSS + JavaScript with real-world examples._
 
 ---
 
@@ -27,7 +27,7 @@ _This project is part of a free, open-source series focused on helping newer dev
 
 ## 🔗 See the site live
 
--   Live demo on Github Pages
+-   [Live demo on Github Pages](https://angelajholden.github.io/resume-layout/)
 
 ---
 

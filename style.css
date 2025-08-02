@@ -1,0 +1,160 @@
+:root {
+	--white: #f8f8f8;
+	--navy: #1d506f;
+	--pink: #ff8093;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0 auto;
+	max-width: 75rem;
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 100%;
+	line-height: 1.65;
+	color: var(--white);
+	background-color: var(--navy);
+}
+
+figure {
+	margin: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+svg {
+	display: block;
+}
+
+p {
+	font-size: 1.1rem;
+	margin: 0 0 1rem;
+}
+
+p:last-of-type {
+	margin: 0;
+}
+
+a {
+	color: var(--pink);
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 300ms ease-in-out;
+}
+
+a:focus,
+a:hover,
+a:active {
+	border-bottom: 2px solid var(--pink);
+}
+
+.access-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+.header {
+	padding: 5rem 0 0;
+}
+
+.primary-heading {
+	font-size: 3rem;
+	margin: 0 0 2rem;
+}
+
+.secondary-heading {
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	margin: 0 0 2rem;
+}
+
+.tertiary-heading {
+	font-size: 2rem;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+
+.intro_text {
+	margin: 0 0 5rem;
+}
+
+.intro_text p {
+	font-size: 1.5rem;
+}
+
+.grid_container {
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+	align-items: start;
+	margin: 0 0 5rem;
+}
+
+.grid_images {
+	max-width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2rem;
+}
+
+.figure {
+	width: 100%;
+	height: auto;
+	aspect-ratio: 1.28 / 1;
+}
+
+.figure img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.item {
+	margin: 0 0 2rem;
+}
+
+.contact_email {
+	font-size: 2rem;
+}
+
+.footer {
+	padding: 5rem 0;
+	text-align: center;
+}
+
+.social_nav ul {
+	list-style-type: none;
+	margin: 2rem 0 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.social_item svg {
+	width: 50px;
+	height: 50px;
+	stroke: var(--white);
+	fill: var(--white);
+}

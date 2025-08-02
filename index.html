@@ -4,18 +4,23 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Resume Landing Page</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="normalize.css" />
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<header class="header">
 			<h1 class="primary-heading">Hello, my name is Angela.</h1>
 		</header>
 		<main class="main">
-			<section class="intro_text">
+			<div class="intro_text">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque autem reiciendis dolor blanditiis ratione necessitatibus neque asperiores molestiae voluptas praesentium veritatis minus, nihil sapiente architecto ex placeat aut eos sequi.</p>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis distinctio recusandae voluptatibus!</p>
-			</section>
+			</div>
 			<section class="grid_container">
-				<h2 class="secdondary-heading">Employment</h2>
+				<h2 class="secondary-heading">Employment</h2>
 				<div class="grid_items">
 					<article class="item">
 						<div class="duration">
@@ -46,7 +51,7 @@
 				</div>
 			</section>
 			<section class="grid_container">
-				<h2 class="secdondary-heading">Education</h2>
+				<h2 class="secondary-heading">Education</h2>
 				<div class="grid_items">
 					<article class="item">
 						<div class="duration">
@@ -60,42 +65,34 @@
 				</div>
 			</section>
 			<section class="grid_container">
-				<h2 class="secdondary-heading">Selected Projects</h2>
-				<div class="grid_items">
-					<article class="item">
-						<figure class="figure">
-							<img src="images/jeremy-yap-jn-HaGWe4yw-unsplash.jpg" alt="unsplash alt text" />
-							<figcaption>Project Name Goes Here</figcaption>
-						</figure>
-						<figure class="figure">
-							<img src="images/iain-robertson-G46PxOQSdnA-unsplash.jpg" alt="unsplash alt text" />
-							<figcaption>Project Name Goes Here</figcaption>
-						</figure>
-						<figure class="figure">
-							<img src="images/ibrahim-ozdemir-rRDHlkSyoxY-unsplash.jpg" alt="unsplash alt text" />
-							<figcaption>Project Name Goes Here</figcaption>
-						</figure>
-						<figure class="figure">
-							<img src="images/kobby-mendez-WXJ33HOrzvE-unsplash.jpg" alt="unsplash alt text" />
-							<figcaption>Project Name Goes Here</figcaption>
-						</figure>
-						<figure class="figure">
-							<img src="images/luann-hunt-O3TlS547j7k-unsplash.jpg" alt="unsplash alt text" />
-							<figcaption>Project Name Goes Here</figcaption>
-						</figure>
-						<figure class="figure">
-							<img src="images/mgg-vitchakorn-E6s3kbC1mo0-unsplash.jpg" alt="unsplash alt text" />
-							<figcaption>Project Name Goes Here</figcaption>
-						</figure>
-					</article>
+				<h2 class="secondary-heading">Selected Projects</h2>
+				<div class="grid_images">
+					<figure class="figure">
+						<img src="images/jeremy-yap-jn-HaGWe4yw-unsplash.jpg" alt="unsplash alt text" />
+					</figure>
+					<figure class="figure">
+						<img src="images/iain-robertson-G46PxOQSdnA-unsplash.jpg" alt="unsplash alt text" />
+					</figure>
+					<figure class="figure">
+						<img src="images/ibrahim-ozdemir-rRDHlkSyoxY-unsplash.jpg" alt="unsplash alt text" />
+					</figure>
+					<figure class="figure">
+						<img src="images/kobby-mendez-WXJ33HOrzvE-unsplash.jpg" alt="unsplash alt text" />
+					</figure>
+					<figure class="figure">
+						<img src="images/luann-hunt-O3TlS547j7k-unsplash.jpg" alt="unsplash alt text" />
+					</figure>
+					<figure class="figure">
+						<img src="images/mgg-vitchakorn-E6s3kbC1mo0-unsplash.jpg" alt="unsplash alt text" />
+					</figure>
 				</div>
 			</section>
 			<section class="grid_container">
-				<h2 class="secdondary-heading">Contact</h2>
+				<h2 class="secondary-heading">Contact</h2>
 				<div class="grid_items">
 					<article class="item">
 						<h3 class="tertiary-heading">Contact</h3>
-						<p><a href="mailto:info@angelajholden.com" target="_blank">info@angelajholden.com</a></p>
+						<p class="contact_email"><a href="mailto:info@angelajholden.com" target="_blank">info@angelajholden.com</a></p>
 					</article>
 				</div>
 			</section>
@@ -139,9 +136,9 @@
 						<a href="#">
 							<span class="access-hidden">Print Resume</span>
 							<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
-								<path d="M384 368h24a40.12 40.12 0 0040-40V168a40.12 40.12 0 00-40-40H104a40.12 40.12 0 00-40 40v160a40.12 40.12 0 0040 40h24" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
-								<rect x="128" y="240" width="256" height="208" rx="24.32" ry="24.32" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
-								<path d="M384 128v-24a40.12 40.12 0 00-40-40H168a40.12 40.12 0 00-40 40v24" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" />
+								<path d="M384 368h24a40.12 40.12 0 0040-40V168a40.12 40.12 0 00-40-40H104a40.12 40.12 0 00-40 40v160a40.12 40.12 0 0040 40h24" fill="none" stroke="" stroke-linejoin="round" stroke-width="32" />
+								<rect x="128" y="240" width="256" height="208" rx="24.32" ry="24.32" fill="none" stroke="" stroke-linejoin="round" stroke-width="32" />
+								<path d="M384 128v-24a40.12 40.12 0 00-40-40H168a40.12 40.12 0 00-40 40v24" fill="none" stroke="" stroke-linejoin="round" stroke-width="32" />
 								<circle cx="392" cy="184" r="24" />
 							</svg>
 						</a>

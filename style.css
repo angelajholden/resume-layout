@@ -101,7 +101,8 @@ a:active {
 }
 
 .tertiary-heading:has(+ .contact_email) {
-	margin: 0 0 1.25rem;
+	margin: 0 0 1rem;
+	line-height: 1.25;
 }
 
 .intro_text {
